@@ -1,13 +1,13 @@
 ### 1. Import essential libraries
 
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import google.generativeai as gen_ai
 import streamlit as st
 import random
 
 ### 2. load our API_key vairable from .env
-load_dotenv()
+# load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 ### 3. Set up our AI using the API KEY
